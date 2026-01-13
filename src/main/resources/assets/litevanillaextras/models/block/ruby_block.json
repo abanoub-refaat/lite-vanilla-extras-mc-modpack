@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "litevanillaextras:block/ruby_block"
+  }
+}
