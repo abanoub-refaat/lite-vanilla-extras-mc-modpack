@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "litevanillaextras",
+	"version": "${version}",
+	"name": "Lite Vanilla Extras",
+	"description": "Lite Vanilla Extras is a lightweight, vanilla-friendly mod that adds small, natural features to Minecraft.",
+	"authors": [
+		"Abanoub Refaat"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/abanoub-refaaat/Lite-Vanilla-extras-1.21.X"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/litevanillaextras/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.abanoub.litevanillaextras.LiteVanillaExtras"
+		],
+		"fabric-datagen": [
+			"net.abanoub.litevanillaextras.LiteVanillaExtrasDataGenerator"
+		],
+		"client": [
+			"net.abanoub.litevanillaextras.LiteVanillaExtrasClient"
+		]
+	},
+	"mixins": [
+		"litevanillaextras.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
