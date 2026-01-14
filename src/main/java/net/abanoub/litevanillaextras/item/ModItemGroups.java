@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.RUBY_DEEPSLATE_ORE);
                     }).build());
 
 

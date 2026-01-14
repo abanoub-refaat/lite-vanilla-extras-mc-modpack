@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "litevanillaextras:ruby_block",
+    "litevanillaextras:ruby_ore",
+    "litevanillaextras:ruby_deepslate_ore"
+  ]
+}
