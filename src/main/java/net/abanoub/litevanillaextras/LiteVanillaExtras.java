@@ -1,6 +1,7 @@
 package net.abanoub.litevanillaextras;
 
 import net.abanoub.litevanillaextras.block.ModBlocks;
+import net.abanoub.litevanillaextras.item.ModItemGroups;
 import net.abanoub.litevanillaextras.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class LiteVanillaExtras implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

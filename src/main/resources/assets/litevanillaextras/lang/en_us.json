@@ -2,5 +2,7 @@
   "item.litevanillaextras.ruby": "Ruby",
 
   "block.litevanillaextras.ruby_block": "Block of Ruby",
-  "block.litevanillaextras.ruby_ore": "Ruby Ore"
+  "block.litevanillaextras.ruby_ore": "Ruby Ore",
+
+  "itemgroup.litevanillaextras.ruby_items": "ٌRuby Items"
 }
