@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "litevanillaextras:item/golden_duck_egg"
+  }
+}

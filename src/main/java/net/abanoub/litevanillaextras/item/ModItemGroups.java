@@ -11,14 +11,18 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup RUBY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(LiteVanillaExtras.MOD_ID, "ruby_item_group"), FabricItemGroup.builder()
+    public static final ItemGroup RUBY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(LiteVanillaExtras.MOD_ID, "lite_vanilla_extras_group"), FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModItems.RUBY))
-                    .displayName(Text.translatable("itemgroup.litevanillaextras.ruby_items"))
+                    .displayName(Text.translatable("itemgroup.litevanillaextras.lite_vanilla_extras_group"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.RUBY_DEEPSLATE_ORE);
+                        entries.add(ModItems.DUCK_EGG);
+                        entries.add(ModItems.GOLDEN_DUCK_EGG);
+                        entries.add(ModItems.OMELETTE);
+                        entries.add(ModItems.OMELETTE_SANDWICH);
                     }).build());
 
 

@@ -1,9 +1,13 @@
 {
   "item.litevanillaextras.ruby": "Ruby",
+  "item.litevanillaextras.golden_duck_egg": "Golden Duck Egg",
+  "item.litevanillaextras.duck_egg": "Duck Egg",
+  "item.litevanillaextras.omelette": "Omelette",
+  "item.litevanillaextras.omelette_sandwich": "Omelette Sandwich",
 
   "block.litevanillaextras.ruby_block": "Block of Ruby",
   "block.litevanillaextras.ruby_ore": "Ruby Ore",
   "block.litevanillaextras.ruby_deepslate_ore": "Ruby Deepslate Ore",
 
-  "itemgroup.litevanillaextras.ruby_items": "ٌRuby Items"
+  "itemgroup.litevanillaextras.lite_vanilla_extras_group": "Lite Vanilla Extras Items"
 }
