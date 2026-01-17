@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "ruby",
+  "ingredient": {
+    "item": "litevanillaextras:duck_egg"
+  },
+  "result": {
+    "id": "litevanillaextras:omelette"
+  }
+}
